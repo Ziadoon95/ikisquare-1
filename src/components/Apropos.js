@@ -3,7 +3,7 @@ import React from 'react'
 export default function Apropos() {
     return (
         <section id="apropos-page">
-        <div id="apropos-page-content">
+        <div className="main-container" >
             <h1 class="sections-title">A PROPOS</h1>
 
             <div class="apropos flex-container wrap">

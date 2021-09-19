@@ -55,7 +55,7 @@ background: gold;
 
 .flex-item {
   padding: 5px;
-  width: 285px;
+  width: 32%;
   /* height: 450px; */
   line-height: 30px;
   color: white;
@@ -119,21 +119,30 @@ background: gold;
   color : white ;
 
 }
-#services-page-content{
+
+.main-container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+/* #services-page-content{
   position: relative ; 
   padding: 50px 50px; 
   width: 80%;
-}
+} */
 /*END SECTION SERVICES */
-#apropos-page{
+/* #apropos-page{
   background-color:   #E5E5E5;
   display: flex;
   justify-content: end;
   padding-bottom: 80px;
-}
+} */
+
 #apropos-page-content {
-  width: 80%;
-    padding: 80px 50px; 
+  width: 100%;
+    /* padding: 80px 50px;  */
 }
 .apropos-title{
   font-size: 30px;
@@ -442,11 +451,11 @@ text-align: center;
   color : white ;
 
 }
-#services-page-content{
+/* #services-page-content{
   position: relative ; 
   padding: 50px 50px; 
   width: 80%;
-}
+} */
 /*END SECTION SERVICES */
 #apropos-page{
   background-color:   #E5E5E5;

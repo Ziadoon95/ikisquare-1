@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 export default function Services() {
     return (
         <section id="services-page">
-            <div id="services-page-content">
+            <div className="main-container" >
                 <h1 class="sections-title">SERVICES</h1>
                 <div class="services flex-container wrap"  id="services-firstchild">
                     <div class="bg-bk flex-item">
