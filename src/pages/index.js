@@ -12,6 +12,7 @@ import Services from "../components/Services"
 // import Landingpage from "../components/Landing-page"
 import "../style/stlye.css"
 import Layout from "../components/layout"
+import Landingpage from "../components/Landing-page"
 
 
 
@@ -23,6 +24,7 @@ export default function index() {
 
 
         <Layout>
+        <Landingpage/>
             <Apropos/>
             <Services/>
 
