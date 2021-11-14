@@ -17,12 +17,8 @@ import Landingpage from "../components/Landing-page"
 
 
 export default function index() {
-   
-
     return (
         <>
-{/*                 <div className="sections-title">Hello again from IKISQUARE !</div>
- */}
       <Layout>
         <Landingpage/>
             <Apropos/>
@@ -30,7 +26,6 @@ export default function index() {
 
             <Contact/>
         </Layout> 
-           
         </>
     )
 }
