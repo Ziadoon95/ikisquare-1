@@ -10,7 +10,7 @@ import Contact from "../components/Contact"
 import Services from "../components/Services"
 // import Header from "../components/header"
 // import Landingpage from "../components/Landing-page"
-import "../style/stlye.css"
+import "../style/stlye.min.css"
 import Layout from "../components/layout"
 import Landingpage from "../components/Landing-page"
 

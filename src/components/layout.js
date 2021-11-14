@@ -12,7 +12,7 @@ import * as React from "react"
 // import { useStaticQuery, graphql } from "gatsby"
 import Footer from "./footer"
 import Header from "./header"
-import "../style/stlye.css"
+import "../style/stlye.min.css"
 import Seo from "./seo"
 
 /* import Landingpage from "./Landing-page"
