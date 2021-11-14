@@ -12,7 +12,7 @@ import emailjs from 'emailjs-com';
 
 export default function Contact() {
 
- {/*    const form = useRef();
+    const form = useRef();
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -26,7 +26,7 @@ export default function Contact() {
         });
         form.current.reset();
         window.alert("Votre Email a été envoyé ")
-    }; */}
+    };
 
     return (
         <section id="contact-page">
@@ -53,7 +53,7 @@ export default function Contact() {
                 <h1 className="sections-title"><span className="first-title" >CONTACTEZ </span> NOUS</h1>
                 <p id="contact-description">
                 N’hésitez pas à prendre contact avec nous pour nous faire part de vos questions. Nous serons ravis d’y apporter une réponse.                 </p>
-                <form id="contact-form" /* ref={form} */ /* onSubmit={sendEmail} */ >
+                <form id="contact-form" ref={form} onSubmit={sendEmail} >
                     <input type="text" class="form-input" name="user_name" placeholder="Nom" size="2"/>
                     <input type="email" class="form-input" name="user_email" placeholder="Email" required/>
                     <textarea name="" id="" cols="30" rows="10" name="message" placeholder="Message" required ></textarea>
